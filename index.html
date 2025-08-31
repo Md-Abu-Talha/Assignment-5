@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-5</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emergency Hotline Directory</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-green-100">
+      <!-- Navbar -->
+  <nav class="flex justify-between items-center bg-white shadow lg:px-6 px-2 py-4">
+    <div class="flex items-center gap-2">
+      <img src="./assets/logo.png" alt="Logo" class="w-[50px] h-[50px]" />
+      <span class="text-green-800 font-bold">Emergency <br> Service</span>
+    </div>
+    <div class="flex items-center gap-1 lg:gap-6">
+      <div class="flex items-center gap-1 bg-green-100 h-[40px] w-[70px] lg:h-[50px] lg:w-[125px] rounded-full justify-center items-center">
+        <span id="heartCount">0</span>
+        <span><img src="./assets/heart.png" alt="Heart Logo" class="h-[25px] w-[25px]"></span>
+        
+      </div>
+      <div class="flex items-center gap-1 bg-green-100 h-[40px] w-[70px] lg:h-[50px] lg:w-[125px] rounded-full justify-center items-center">
+        <span id="coinCount">100</span>
+        <span>
+          <img src="./assets/coin.png" alt="Coin Logo" class="h-[25px] w-[25px]">
+        </span>
+      </div>
+      <div class="flex items-center gap-1 bg-green-500 h-[40px] w-[70px] lg:h-[50px] lg:w-[125px] rounded-full justify-center items-center">
+        <span id="copyCount" class="text-white">0</span>
+        <p class="text-white">Copy</p>
+      </div>
+    </div>
+  </nav>
+
+
+
+  
 </body>
 </html>
